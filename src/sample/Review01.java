@@ -11,7 +11,7 @@ public class Review01 {
         int result = tax(merchandise, taxRate);
         int priceIncludingTax = merchandise + result;
 
-        System.out.println(merchandise + "円の商品の税込み価格は" + priceIncludingTax + "円(消費税は" + result + "円)です。");
+        System.out.println(merchandise + "円の商品の税込価格は" + priceIncludingTax + "円 (消費税は" + result + "円) です。");
 
     }
 
